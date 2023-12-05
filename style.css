@@ -1,4 +1,58 @@
 body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
+}
+
+#box {
+  padding: 50px 0;
+}
+#box .box {
+  display: flex;
+  justify-content: space-evenly;
+  width: 185px;
+  height: 168px;
+  border: 2px solid #7e77e0;
+  background-color: #6a96ab;
+}
+#box .box .minibox {
+  width: 80px;
+  height: 80px;
+  background-color: #306576;
+  margin: 38px;
+  transition: 3s;
+}
+#box .box .minibox:hover {
+  transform: scale(1.5);
+}
+#box .box .minibox h2 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 28px;
+  color: white;
+}
+
+#demo {
+  padding: 50px 0;
+}
+#demo .box {
+  display: flex;
+  justify-content: space-around;
+}
+#demo .box .minibox {
+  width: 180px;
+  height: 73px;
+  background-color: #894187;
+  border: 2px solid #753e77;
+  cursor: pointer;
+  transition: 2s;
+}
+#demo .box .minibox:hover {
+  background-color: #3d113f;
+  border: 4px solid #905c92;
+}
+#demo .box .minibox h2 {
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  margin: 0 50px;
 }/*# sourceMappingURL=style.css.map */
