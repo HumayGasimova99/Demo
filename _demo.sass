@@ -1,20 +1,26 @@
 #demo
     padding: 50px 0
-    .box
-        display: flex
-        justify-content: space-around
+    .minibox
+        width: 150px
+        height: 73px
+        background-color: #894187
+        border: 2px solid #753e77
+        cursor: pointer
+        transition: 3s
+        &:hover
+            background-color: #3d113f
+            border: 4px solid #905c92
+        h2
+            font-weight: 500
+            font-size: 18px
+            color: #ffff
+            padding: 0 50px
+    @media screen and ( max-width: 800px )
         .minibox
-            width: 180px
-            height: 73px
-            background-color: #894187
-            border: 2px solid #753e77
-            cursor: pointer
-            transition: 2s
-            &:hover
-                background-color: #3d113f
-                border: 4px solid #905c92
+            width: 100px
+            height: 50px
+            background-color: #7d7cdf
+            border: 2px solid #891cf0
             h2
-                font-weight: 500
                 font-size: 15px
-                color: #ffff
-                margin: 0 50px
+                padding: 12px 31px
