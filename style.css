@@ -43,23 +43,23 @@ body {
 }
 #demo .minibox:hover {
   background-color: #3d113f;
-  border: 4px solid #905c92;
+  border: 2px solid #905c92;
 }
 #demo .minibox h2 {
   font-weight: 500;
   font-size: 18px;
   color: white;
-  padding: 0 50px;
+  padding: 5px 50px;
 }
 @media screen and (max-width: 800px) {
   #demo .minibox {
-    width: 100px;
+    width: 90px;
     height: 50px;
     background-color: #7d7cdf;
     border: 2px solid #891cf0;
   }
   #demo .minibox h2 {
     font-size: 15px;
-    padding: 12px 31px;
+    padding: 13px 25px;
   }
 }/*# sourceMappingURL=style.css.map */
