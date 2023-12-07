@@ -62,4 +62,37 @@ body {
     font-size: 15px;
     padding: 13px 25px;
   }
+}
+
+#ring {
+  padding: 50px 0;
+}
+#ring .box {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #966b45;
+  transition: 2s;
+}
+#ring .box:hover {
+  border-radius: 20%;
+}
+#ring .box h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  margin: 59px;
+}
+@media screen and (max-width: 800px) {
+  #ring .box {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #a0a96b;
+  }
+  #ring .box h2 {
+    font-size: 25px;
+    margin: 10px 5px;
+  }
 }/*# sourceMappingURL=style.css.map */
