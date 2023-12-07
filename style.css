@@ -6,30 +6,28 @@ body {
 #box {
   padding: 50px 0;
 }
-#box .col-md-4 {
-  display: flex;
-  justify-content: center;
-}
-#box .col-md-4 .box {
+#box .box {
   width: 185px;
   height: 168px;
-  border: 2px solid #306576;
-  background-color: #6a96ab;
+  border: 2px solid #34557a;
+  background-color: #7a93b1;
 }
-#box .col-md-4 .box .minibox {
-  width: 80px;
+#box .box .minibox {
+  display: flex;
+  align-items: center;
+  width: 90px;
   height: 80px;
-  background-color: #306576;
+  background-color: #34557a;
   margin: 46px;
-  transition: 3s transform;
+  transition: 3s;
 }
-#box .col-md-4 .box .minibox:hover {
+#box .box .minibox:hover {
   transform: scale(1.5);
 }
-#box .col-md-4 .box .minibox h2 {
-  font-weight: 700;
+#box .box .minibox h2 {
   color: white;
-  padding: 26px;
+  margin: 32px;
+  font-size: 15px;
 }
 
 #demo {
