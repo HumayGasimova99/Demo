@@ -141,4 +141,25 @@ body {
   position: absolute;
   top: 730px;
   left: 302px;
+}
+
+#txt {
+  padding: 50px 0;
+  position: relative;
+}
+#txt .minibox {
+  width: 250px;
+  height: 150px;
+  background-color: #509768;
+  margin: 20px;
+}
+#txt .minibox h2 {
+  font-size: 20px;
+  color: white;
+  padding: 57px 88px;
+}
+#txt .text {
+  position: absolute;
+  top: 220px;
+  left: 320px;
 }/*# sourceMappingURL=style.css.map */
