@@ -7,23 +7,24 @@ body {
   padding: 50px 0;
 }
 #box .box {
-  width: 185px;
-  height: 168px;
+  width: 200px;
+  height: 185px;
   border: 2px solid #34557a;
   background-color: #7a93b1;
 }
 #box .box .minibox {
   display: flex;
   align-items: center;
-  position: relative;
+  background-color: #34557a;
+  margin: 53px;
   width: 90px;
   height: 80px;
-  background-color: #34557a;
-  margin: 46px;
-  transition: 3s;
+  transition: 2s;
 }
 #box .box .minibox:hover {
   transform: scale(1.5);
+  width: 100px;
+  height: 90px;
 }
 #box .box .minibox h2 {
   color: white;
