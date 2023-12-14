@@ -22,14 +22,14 @@ body {
   transition: 2s;
 }
 #box .box .minibox:hover {
+  transform: scale(1.5);
   width: 100px;
   height: 90px;
-  transform: scale(1.5);
 }
 #box .box .minibox h2 {
   color: white;
-  font-size: 15px;
-  margin: 32px;
+  margin: 32px 34px;
+  font-size: 18px;
 }
 
 #button {
