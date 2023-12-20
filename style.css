@@ -13,22 +13,20 @@ body {
   background-color: #7a93b1;
 }
 #box .box .minibox {
-  display: flex;
-  align-items: center;
   background-color: #34557a;
-  margin: 53px;
-  width: 90px;
-  height: 80px;
+  margin: 35px 43px;
+  width: 100px;
+  height: 100px;
   transition: 2s;
 }
 #box .box .minibox:hover {
-  transform: scale(1.5);
-  width: 100px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
+  transition: 1s;
 }
 #box .box .minibox h2 {
   color: white;
-  margin: 32px 34px;
+  padding: 36px;
   font-size: 18px;
 }
 
